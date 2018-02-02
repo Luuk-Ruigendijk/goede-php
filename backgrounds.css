@@ -1,0 +1,20 @@
+.middag{
+	background-image: url("backgrounds/afternoon.png");
+	background-size: cover;
+}
+
+.avond{
+	background-image: url("backgrounds/evening");
+	background-size: cover;
+}
+
+.nacht{
+	background-image: url("backgrounds/night.png");
+	background-size: cover;
+}
+
+.morgen{
+	background-image: url("backgrounds/morning");
+	background-size: cover;
+}
+

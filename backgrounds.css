@@ -4,7 +4,7 @@
 }
 
 .avond{
-	background-image: url("backgrounds/evening");
+	background-image: url("backgrounds/evening.png");
 	background-size: cover;
 }
 
@@ -14,7 +14,17 @@
 }
 
 .morgen{
-	background-image: url("backgrounds/morning");
+	background-image: url("backgrounds/morning.png");
 	background-size: cover;
 }
 
+body {
+	text-align: center;
+}
+
+h1{
+	font-size: 600%
+}
+h2{
+	font-size: 500%
+}

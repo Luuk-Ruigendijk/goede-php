@@ -1,12 +1,4 @@
 <?php
-	$name = "Luuk";
-	$kaasbaas = "baasvankazen";
-	if ($name=="Luuk") {
-		//echo "Luuk is da best";
-	}
-	for ($i=0; $i <= 10; $i++) { 
-		//echo $i . ", ";
-	}
 
 	date_default_timezone_set("Europe/Amsterdam");
 	
@@ -41,7 +33,7 @@
 		<link rel="stylesheet" type="text/css" href="backgrounds.css">
 		<title>het uur is: <?=$hour?></title>
 	</head>
-	<body class="<?php echo $class; ?>">
+	<body class="<?php print($class) ?>">
 		<h1>Goede <?=$class?></h1>
 		<h2>het is nu <?=$time?></h2>
 	</body>
